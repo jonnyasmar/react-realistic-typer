@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outFile": "./dist/index.js",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "strict": false,
+    "strictNullChecks": false,
+    "module": "amd",
+    "target": "es2015",
+    "jsx": "react",
+    "declaration": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}

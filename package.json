@@ -1,0 +1,30 @@
+{
+  "name": "react-realistic-typer",
+  "version": "1.0.7",
+  "description": "RealisticTyper: A simple React component that outputs text in a way that simulates human typing.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyasmar/react-realistic-typer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonnyasmar/react-realistic-typer/issues/"
+  },
+  "scripts": {
+    "build": "tsc --pretty",
+    "prepublish": "npm run build"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "Jonny Asmar",
+    "email": "jonnyasmar@me.com"
+  },
+  "license": "GPL",
+  "dependencies": {
+    "react": "^16.2.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.35"
+  }
+}

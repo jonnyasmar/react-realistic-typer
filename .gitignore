@@ -1,0 +1,7 @@
+# IDEs
+.idea
+
+# dist
+node_modules
+dist
+react-realistic-typer-*.tgz
