@@ -3,6 +3,8 @@ A simple React component that outputs text in a way that simulates human typing.
 
 *Requires `React 16.2` or later (due to its dependency on `React.Fragment`).*
 
+#### [Check out the interactive demo on JSFiddle!](https://jsfiddle.net/jonnyasmar/mqza9rrx/)
+
 ## Usage
 `RealisticTyper` is the `React` component provided by `react-realistic-typer` and is very easy to use:
 
