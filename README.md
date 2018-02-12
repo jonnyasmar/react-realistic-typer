@@ -1,4 +1,4 @@
-# react-realistic-typer
+# react-realistic-typer ![](https://badge.fury.io/js/react-realistic-typer.svg)
 A simple React component that outputs text in a way that simulates human typing.
 
 *Requires `React 16.2` or later (due to its dependency on `React.Fragment`).*
