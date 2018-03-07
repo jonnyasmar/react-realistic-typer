@@ -49,10 +49,12 @@ export class RealisticTyper extends React.Component<IProps, IState>{
     this.type(this.props.message);
   }
 
-  componentWillReceiveProps(){
-    this.setState(state => ({
-      message: ''
-    }));
+  componentWillReceiveProps(props: IProps){
+    if(this.props.message !== props.message){
+      this.setState(state => ({
+        message: ''
+      }));
+    }
   }
 
   componentDidUpdate(props: IProps){
@@ -103,10 +105,10 @@ export class RealisticTyper extends React.Component<IProps, IState>{
   render(){
     let message = this.state.message.split('<br/>');
     return <>
-      {message.map((line: string, i: number) =>{
-        if(line === '¶') return <br key={i}/>;
-        else return line;
-      })}
+    {message.map((line: string, i: number) =>{
+      if(line === '¶') return <br key={i}/>;
+      else return line;
+    })}
     </>
   }
 }
